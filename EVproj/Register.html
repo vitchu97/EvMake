@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>EV project</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a href="https://imgbb.com/" class="navbar-brand" style="float: left;"><img src="https://i.ibb.co/kXDhRjV/ev8.png" width="100%" height="100%" alt="ev.8" loading="lazy" class="d-inline-block align-top"></a>
+
+                <div class="toph">
+                    <h1 class="heading">Electric Viehicle Conversion</h1>
+                    <h3 class="heading">The future is here....</h3>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="/index.html" class="nav-link">🏠Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="car.html" class="nav-link">🚘Car</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bike.html" class="nav-link">🏍️Bike</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                📝 Contact
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Twitter</a>
+                                <a class="dropdown-item" href="#">Facebook</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Mail us</a>
+
+                            </div>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="Register.html" class="dropdown-item" style="color: rgb(0, 255, 170);">Register</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <div class="jumbotron" style="height: 500px;">
+        <h1 class="smh">🌲Register to transform your old vehicle to a Electric vehicle 🌲</h1>
+        <p class="smh"> 🌳Lets join your Hands with us and reduce Pollution 🌳<i class="fa fa-smile-o"></i> </p>
+
+    </div>
+
+
+    <div id="scroll-progress">
+        <script>
+            const scrollProgress = document.getElementById('scroll-progress');
+            const height =
+                document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+            window.addEventListener('scroll', () => {
+                const scrollTop =
+                    document.body.scrollTop || document.documentElement.scrollTop;
+                scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+            });
+        </script>
+    </div>
+
+
+
+
+    <div class="body2">
+
+        <div class="container my-5" style="height: 600px;padding: 100px;color: aliceblue; font-size: large;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body" style="background-color: black;">
+                            <form action="" method="POST">
+                                <div class="form-group">
+                                    <label for="fullname">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your Full name" required />
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="mobile">Mobile no.</label>
+                                            <input type="number" class="form-control" placeholder="+91 " required id="phoneHelp" />
+                                            <small id="phoneHelp" class="form-text text-muted">
+                                      We won't share your number with anyone else.
+                                    </small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="you@awesome.com" required aria-describedby="emailHelp" />
+                                            <small id="emailHelp" class="form-text text-muted">
+                                      We'll never share your email with anyone else.
+                                    </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="password">Password</label>
+                                            <input type="password" name="password" id="password" placeholder="Password" class="form-control" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="c_password">Confirm Password</label>
+                                            <input type="password" name="c_password" id="c_password" placeholder="Confirm Password" class="form-control" required />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-check text-center">
+                                    <input type="checkbox" class="form-check-input" id="termsAgreement" required />
+                                    <label class="form-check-label" for="termsAgreement">
+                                  I agree to terms and conditions.
+                                </label>
+                                </div>
+
+                                <div class="form-group text-center">
+                                    <button type="reset" class="btn btn-secondary">Reset</button>
+
+                                    <button class="btn btn-success">
+                                  <i class="fa fa-external-link mr-1"></i>
+                                  Register
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5" style="height: 900px;padding: 100px;color: aliceblue; font-size: large;">
+            <div>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/tcvsncb/gas-electric-v6.gif" alt="gas-electric-v6" class="center" border="0"></a>
+                <h1 class="smh" style="text-align: center;">🌍Choose wisely🌍</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>

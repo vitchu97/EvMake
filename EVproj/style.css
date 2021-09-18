@@ -1,0 +1,63 @@
+body {
+    min-height: 200vh;
+}
+
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 7px;
+    background: #09ff00;
+    z-index: 10000;
+}
+
+.heading {
+    color: rgb(23, 223, 23);
+    text-shadow: 2px 2px 8px #290000, 5px 6px 20px #0000FF;
+    ;
+}
+
+.sheading {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 3px 4px #020202, 5px 6px 10px #ffe75d;
+    ;
+}
+
+.toph {
+    text-align: left;
+}
+
+.myNavBar {
+    flex: content;
+    display: inline-flexbox;
+}
+
+.smh {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 4px #1b3d04, 5px 6px 10px #00e431;
+    ;
+}
+
+.hmc {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+div.jumbotron {
+    background-image: url('https://i.ibb.co/cDCNk58/headim.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body2 {
+    background-image: url('https://i.ibb.co/c6YbQzc/bg3.jpg');
+    background-repeat: repeat;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
